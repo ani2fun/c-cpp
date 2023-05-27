@@ -1,6 +1,6 @@
 # Review Notes on DSA Topics using C-CPP
 
-The examples in this directory are aimed at reviewing fundamental data structures and algorithms in C and CPP.
+The examples are aimed at reviewing fundamental data structures and algorithms in C and CPP.
 
 ### Running the project Using Gradle:
 
@@ -18,5 +18,5 @@ For example:
     ```console
     ./gradlew :training:clean :training:build && /bin/sh ./training/build/install/main/debug/training
     ```
-
+   
 3. (Alternative) Can be executed using `CLion IDE` as well. Clone this repository and run `main.cpp`.

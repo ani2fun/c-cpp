@@ -9,4 +9,4 @@
  */
 
 rootProject.name = "c-cpp"
-include("training")
+include("playground")

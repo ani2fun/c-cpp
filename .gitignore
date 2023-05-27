@@ -32,3 +32,4 @@ out/
 ## C-CPP
 /c-cpp/cmake-build-debug/
 /cmake-build-debug/
+/playground/cmake-build-debug/

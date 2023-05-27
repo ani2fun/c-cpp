@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c-cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/aniket/Development/c-cpp/playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c-cpp">
+				<Option output="/Users/aniket/Development/c-cpp/playground/cmake-build-debug/c-cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aniket/Development/c-cpp/playground/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aniket/Development/c-cpp/playground/src/main/headers"/>
+					<Add directory="/Users/aniket/Development/c-cpp/playground/src/main/headers/c"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 c-cpp"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c-cpp/fast">
+				<Option output="/Users/aniket/Development/c-cpp/playground/cmake-build-debug/c-cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aniket/Development/c-cpp/playground/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aniket/Development/c-cpp/playground/src/main/headers"/>
+					<Add directory="/Users/aniket/Development/c-cpp/playground/src/main/headers/c"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 c-cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/aniket/Development/c-cpp/playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/aniket/Development/c-cpp/playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/aniket/Development/c-cpp/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/cpp/main.cpp">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/AVLCreate.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/AVLTrees.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/ArrayADT.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/ArrayCPPGenericExample.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/ArrayDeclarationC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/BinarySearchInArrayC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/BinarySearchTree.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/BinaryTreeC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/BreadFirstSearchC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/ChainingC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/CircularLinkedList.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/DiagonalMatrixCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/DoublyLinkedListC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/IndirectRecursionC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/LinkedListInC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/NestedRecursionSimpleExampleC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/QueueUsingLinkedListForBinaryTree.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/Recursion.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/RecursionSimpleExample.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/StackUsingArrayForBinaryTree.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/StackUsingLinkedListForBinaryTree.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/StringOps.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/TowerOfHanoiC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/TreeNode.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/TreeRecursionSimpleExample.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/TwoArrayMergeUnionDiffIntersectionC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/AVLTreeCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/ArrayADTCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/BinaryTreeCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/CallByReferenceAddressValueCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/CircularQueueUsingArrayCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/IterativeTreeTraversalUsingStackCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/LowerTriangularMatrixCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/QueueCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/QueueLinkedListCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/StackLinkedListCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/TwoArrayMergeUnionDiffIntersectionCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/cpp/findingMissingExamplesCPP.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/powerC.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/src/main/headers/sumofnaturalnums.h">
+			<Option target="c-cpp"/>
+		</Unit>
+		<Unit filename="/Users/aniket/Development/c-cpp/playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
